@@ -1,0 +1,289 @@
+22:24:58 **** Build of configuration Debug for project EX3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c6tx.d" -MT"Core/Startup/startup_stm32f103c6tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c6tx.o" "../Core/Startup/startup_stm32f103c6tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:90:3: warning: implicit declaration of function 'HAL_GPIO_Toggle_Pin'; did you mean 'HAL_GPIO_TogglePin'? [-Wimplicit-function-declaration]
+   90 |   HAL_GPIO_Toggle_Pin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |   ^~~~~~~~~~~~~~~~~~~
+      |   HAL_GPIO_TogglePin
+../Core/Src/main.c:90:23: error: 'LED_RED_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+   90 |   HAL_GPIO_Toggle_Pin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                       ^~~~~~~~~~~~~~~~~~~
+      |                       LED_REDB0_GPIO_Port
+../Core/Src/main.c:90:23: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:90:44: error: 'LED_RED_1_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+   90 |   HAL_GPIO_Toggle_Pin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                                            ^~~~~~~~~~~~~
+      |                                            LED_REDB0_Pin
+../Core/Src/main.c:91:23: error: 'LED_YELLOW_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   91 |   HAL_GPIO_Toggle_Pin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+      |                       LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:91:47: error: 'LED_YELLOW_1_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   91 |   HAL_GPIO_Toggle_Pin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                                               ^~~~~~~~~~~~~~~~
+      |                                               LED_YELLOWB1_Pin
+../Core/Src/main.c:92:23: error: 'LED_GREEN_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREENB2_GPIO_Port'?
+   92 |   HAL_GPIO_Toggle_Pin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                       ^~~~~~~~~~~~~~~~~~~~~
+      |                       LED_GREENB2_GPIO_Port
+../Core/Src/main.c:92:46: error: 'LED_GREEN_2_Pin' undeclared (first use in this function); did you mean 'LED_GREENB2_Pin'?
+   92 |   HAL_GPIO_Toggle_Pin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                                              ^~~~~~~~~~~~~~~
+      |                                              LED_GREENB2_Pin
+../Core/Src/main.c:93:23: error: 'LED_YELLOW_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   93 |   HAL_GPIO_Toggle_Pin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                       ^~~~~~~~~~~~~~~~~~~~~~
+      |                       LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:93:47: error: 'LED_YELLOW_2_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   93 |   HAL_GPIO_Toggle_Pin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                                               ^~~~~~~~~~~~~~~~
+      |                                               LED_YELLOWB1_Pin
+../Core/Src/main.c:107:56: error: 'LED_YELLOW_1__Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+  107 |             HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1__Pin);
+      |                                                        ^~~~~~~~~~~~~~~~~
+      |                                                        LED_YELLOWB1_Pin
+../Core/Src/main.c:115:29: error: 'LED_RED_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             LED_REDB0_GPIO_Port
+../Core/Src/main.c:115:51: error: 'LED_RED_2_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                                                   ^~~~~~~~~~~~~
+      |                                                   LED_REDB0_Pin
+../Core/Src/main.c:129:28: error: 'LED_GREEN_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREEN_GPIO_Port'?
+  129 |       HAL_GPIO_TogglePin ( LED_GREEN_1_GPIO_Port , LED_GREEN_1_Pin ) ;
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+      |                            LED_GREEN_GPIO_Port
+../Core/Src/main.c:129:52: error: 'LED_GREEN_1_Pin' undeclared (first use in this function); did you mean 'LED_GREEN_Pin'?
+  129 |       HAL_GPIO_TogglePin ( LED_GREEN_1_GPIO_Port , LED_GREEN_1_Pin ) ;
+      |                                                    ^~~~~~~~~~~~~~~
+      |                                                    LED_GREEN_Pin
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:26:13 **** Incremental Build of configuration Debug for project EX3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:90:22: error: 'LED_RED_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~
+      |                      LED_REDB0_GPIO_Port
+../Core/Src/main.c:90:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:90:43: error: 'LED_RED_1_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                                           ^~~~~~~~~~~~~
+      |                                           LED_REDB0_Pin
+../Core/Src/main.c:91:22: error: 'LED_YELLOW_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:91:46: error: 'LED_YELLOW_1_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:92:22: error: 'LED_GREEN_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREENB2_GPIO_Port'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+      |                      LED_GREENB2_GPIO_Port
+../Core/Src/main.c:92:45: error: 'LED_GREEN_2_Pin' undeclared (first use in this function); did you mean 'LED_GREENB2_Pin'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             LED_GREENB2_Pin
+../Core/Src/main.c:93:22: error: 'LED_YELLOW_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:93:46: error: 'LED_YELLOW_2_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:107:56: error: 'LED_YELLOW_1__Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+  107 |             HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1__Pin);
+      |                                                        ^~~~~~~~~~~~~~~~~
+      |                                                        LED_YELLOWB1_Pin
+../Core/Src/main.c:115:29: error: 'LED_RED_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             LED_REDB0_GPIO_Port
+../Core/Src/main.c:115:51: error: 'LED_RED_2_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                                                   ^~~~~~~~~~~~~
+      |                                                   LED_REDB0_Pin
+../Core/Src/main.c:129:28: error: 'LED_GREEN_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREEN_GPIO_Port'?
+  129 |       HAL_GPIO_TogglePin ( LED_GREEN_1_GPIO_Port , LED_GREEN_1_Pin ) ;
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+      |                            LED_GREEN_GPIO_Port
+../Core/Src/main.c:129:52: error: 'LED_GREEN_1_Pin' undeclared (first use in this function); did you mean 'LED_GREEN_Pin'?
+  129 |       HAL_GPIO_TogglePin ( LED_GREEN_1_GPIO_Port , LED_GREEN_1_Pin ) ;
+      |                                                    ^~~~~~~~~~~~~~~
+      |                                                    LED_GREEN_Pin
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:28:02 **** Incremental Build of configuration Debug for project EX3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:90:22: error: 'LED_RED_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~
+      |                      LED_REDB0_GPIO_Port
+../Core/Src/main.c:90:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:90:43: error: 'LED_RED_1_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                                           ^~~~~~~~~~~~~
+      |                                           LED_REDB0_Pin
+../Core/Src/main.c:91:22: error: 'LED_YELLOW_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:91:46: error: 'LED_YELLOW_1_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:92:22: error: 'LED_GREEN_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREENB2_GPIO_Port'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+      |                      LED_GREENB2_GPIO_Port
+../Core/Src/main.c:92:45: error: 'LED_GREEN_2_Pin' undeclared (first use in this function); did you mean 'LED_GREENB2_Pin'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             LED_GREENB2_Pin
+../Core/Src/main.c:93:22: error: 'LED_YELLOW_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:93:46: error: 'LED_YELLOW_2_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:106:28: error: 'LED_GREEN_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREEN_GPIO_Port'?
+  106 |         HAL_GPIO_TogglePin(LED_GREEN_1_GPIO_Port, LED_GREEN_1_Pin);
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+      |                            LED_GREEN_GPIO_Port
+../Core/Src/main.c:106:51: error: 'LED_GREEN_1_Pin' undeclared (first use in this function); did you mean 'LED_GREEN_Pin'?
+  106 |         HAL_GPIO_TogglePin(LED_GREEN_1_GPIO_Port, LED_GREEN_1_Pin);
+      |                                                   ^~~~~~~~~~~~~~~
+      |                                                   LED_GREEN_Pin
+../Core/Src/main.c:115:29: error: 'LED_RED_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             LED_REDB0_GPIO_Port
+../Core/Src/main.c:115:51: error: 'LED_RED_2_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                                                   ^~~~~~~~~~~~~
+      |                                                   LED_REDB0_Pin
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:29:34 **** Incremental Build of configuration Debug for project EX3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:90:22: error: 'LED_RED_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~
+      |                      LED_REDB0_GPIO_Port
+../Core/Src/main.c:90:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:90:43: error: 'LED_RED_1_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+   90 |   HAL_GPIO_TogglePin(LED_RED_1_GPIO_Port, LED_RED_1_Pin);
+      |                                           ^~~~~~~~~~~~~
+      |                                           LED_REDB0_Pin
+../Core/Src/main.c:91:22: error: 'LED_YELLOW_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:91:46: error: 'LED_YELLOW_1_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   91 |   HAL_GPIO_TogglePin(LED_YELLOW_1_GPIO_Port, LED_YELLOW_1_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:92:22: error: 'LED_GREEN_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREENB2_GPIO_Port'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~
+      |                      LED_GREENB2_GPIO_Port
+../Core/Src/main.c:92:45: error: 'LED_GREEN_2_Pin' undeclared (first use in this function); did you mean 'LED_GREENB2_Pin'?
+   92 |   HAL_GPIO_TogglePin(LED_GREEN_2_GPIO_Port, LED_GREEN_2_Pin);
+      |                                             ^~~~~~~~~~~~~~~
+      |                                             LED_GREENB2_Pin
+../Core/Src/main.c:93:22: error: 'LED_YELLOW_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_YELLOWB1_GPIO_Port'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                      ^~~~~~~~~~~~~~~~~~~~~~
+      |                      LED_YELLOWB1_GPIO_Port
+../Core/Src/main.c:93:46: error: 'LED_YELLOW_2_Pin' undeclared (first use in this function); did you mean 'LED_YELLOWB1_Pin'?
+   93 |   HAL_GPIO_TogglePin(LED_YELLOW_2_GPIO_Port, LED_YELLOW_2_Pin);
+      |                                              ^~~~~~~~~~~~~~~~
+      |                                              LED_YELLOWB1_Pin
+../Core/Src/main.c:106:28: error: 'LED_GREEN_1_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GREEN_GPIO_Port'?
+  106 |         HAL_GPIO_TogglePin(LED_GREEN_1_GPIO_Port, LED_GREEN_1_Pin);
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+      |                            LED_GREEN_GPIO_Port
+../Core/Src/main.c:106:51: error: 'LED_GREEN_1_Pin' undeclared (first use in this function); did you mean 'LED_GREEN_Pin'?
+  106 |         HAL_GPIO_TogglePin(LED_GREEN_1_GPIO_Port, LED_GREEN_1_Pin);
+      |                                                   ^~~~~~~~~~~~~~~
+      |                                                   LED_GREEN_Pin
+../Core/Src/main.c:115:29: error: 'LED_RED_2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_REDB0_GPIO_Port'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             LED_REDB0_GPIO_Port
+../Core/Src/main.c:115:51: error: 'LED_RED_2_Pin' undeclared (first use in this function); did you mean 'LED_REDB0_Pin'?
+  115 |        HAL_GPIO_TogglePin ( LED_RED_2_GPIO_Port , LED_RED_2_Pin ) ;
+      |                                                   ^~~~~~~~~~~~~
+      |                                                   LED_REDB0_Pin
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+22:31:42 **** Incremental Build of configuration Debug for project EX3 ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "EX3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Study_Space\BKU\HK241\microprocessor\lab1_ex3\EX3\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EX3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: EX3.elf
+ 
+arm-none-eabi-size   EX3.elf 
+arm-none-eabi-objdump -h -S  EX3.elf  > "EX3.list"
+arm-none-eabi-objcopy  -O ihex  EX3.elf  "EX3.hex"
+arm-none-eabi-objcopy  -O binary  EX3.elf  "EX3.bin"
+   text	   data	    bss	    dec	    hex	filename
+   4852	     20	   1572	   6444	   192c	EX3.elf
+Finished building: default.size.stdout
+ 
+Finished building: EX3.list
+Finished building: EX3.hex
+Finished building: EX3.bin
+ 
+ 
+ 
